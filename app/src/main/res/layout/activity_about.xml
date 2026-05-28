@@ -73,7 +73,7 @@
                     android:id="@+id/tvGithub"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="https://github.com/yourusername"
+                    android:text="https://github.com/ird00/ZakaTracking.git"
                     android:textColor="#1976D2"
                     android:textStyle="bold"
                     android:textSize="18sp"

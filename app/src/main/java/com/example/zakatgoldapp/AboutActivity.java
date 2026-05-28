@@ -32,7 +32,7 @@ public class AboutActivity extends AppCompatActivity {
 
             Intent intent = new Intent(
                     Intent.ACTION_VIEW,
-                    Uri.parse("https://github.com/sxk4172/LearningForKids")
+                    Uri.parse("https://github.com/ird00/ZakaTracking.git")
             );
 
             startActivity(intent);
