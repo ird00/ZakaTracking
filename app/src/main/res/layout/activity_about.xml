@@ -24,67 +24,68 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center_horizontal"
-            android:padding="25dp">
-
-            <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:src="@mipmap/ic_launcher"
-                android:layout_marginTop="20dp"/>
+            android:padding="20dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="About Developer"
-                android:textSize="30sp"
+                android:text="ZakaTracking Application"
+                android:textSize="25sp"
                 android:textStyle="bold"
                 android:textColor="#333333"
                 android:layout_marginTop="20dp"/>
 
             <LinearLayout
-                android:layout_width="320dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_marginTop="50dp"
                 android:background="#FFFFFF"
-                android:padding="20dp"
-                android:layout_marginTop="25dp">
+                android:orientation="vertical"
+                android:padding="20dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Name: Nurul Irdina Binti Ismail"
-                    android:textSize="18sp"/>
+                    android:text="Developed By: Nurul Irdina Binti Ismail"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Student No: 2024963107"
-                    android:textSize="18sp"
-                    android:layout_marginTop="12dp"/>
+                    android:layout_marginTop="8dp"
+                    android:text="Student ID: 2024963107"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Group: RCDCS2405A"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
                     android:text="Programme Code: CDCS240"
-                    android:textSize="18sp"
-                    android:layout_marginTop="12dp"/>
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/tvGithub"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
                     android:text="https://github.com/ird00/ZakaTracking.git"
                     android:textColor="#1976D2"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:layout_marginTop="25dp"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Copyright © 2026 Gold Zakat App"
-                    android:textSize="18sp"
-                    android:layout_marginTop="20dp"/>
+                    android:layout_marginTop="25dp"
+                    android:text=" © 2026 ZakaTracking. All rights reserved."
+                    android:textSize="16sp" />
 
             </LinearLayout>
 

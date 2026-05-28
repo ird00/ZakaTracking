@@ -101,15 +101,15 @@ public class MainActivity extends AppCompatActivity {
                 double totalZakat = zakatPayable * 0.025;
 
                 tvTotalGold.setText(
-                        "Total Gold Value: RM " + totalGoldValue
+                        String.format("Total Gold Value: RM %.2f", totalGoldValue)
                 );
 
                 tvZakatPayable.setText(
-                        "Zakat Payable: RM " + zakatPayable
+                        String.format("Zakat Payable: RM %.2f", zakatPayable)
                 );
 
                 tvTotalZakat.setText(
-                        "Total Zakat: RM " + totalZakat
+                        String.format("Total Zakat: RM %.2f", totalZakat)
                 );
             }
         });
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
 
             shareIntent.putExtra(
                     Intent.EXTRA_TEXT,
-                    "Download my Gold Zakat App:\nhttps://github.com/yourusername"
+                    "Download my Gold Zakat App:\nhttps://github.com/ird00/ZakaTracking.git"
             );
 
             startActivity(
